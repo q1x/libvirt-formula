@@ -6,7 +6,6 @@
             'libvirt0',
             'qemu-kvm',
         ],
-
         {% if grains['os'] is 'Ubuntu' -%}
         'service': 'libvirt-bin',
         {% else %}
